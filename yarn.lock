@@ -1334,17 +1334,17 @@
   dependencies:
     ethers "^6.7.1"
 
-"@flarenetwork/flare-periphery-contracts@0.1.37":
-  version "0.1.37"
-  resolved "https://registry.yarnpkg.com/@flarenetwork/flare-periphery-contracts/-/flare-periphery-contracts-0.1.37.tgz#57576cf68a9b8845957e5d5868cd171fec8ec699"
-  integrity sha512-kZfCtUijF5G/RJNMqqlXgaT6ZKW7Or652R5DRT6ocecMFGBZk+nUKSITCNwAPuiMd5YZSOwyUJYx/BqS7DSQig==
-  dependencies:
-    "@openzeppelin/contracts" "^4.6.0"
-
 "@flarenetwork/flare-periphery-contracts@^0.1.36":
   version "0.1.38"
   resolved "https://registry.yarnpkg.com/@flarenetwork/flare-periphery-contracts/-/flare-periphery-contracts-0.1.38.tgz#005087d61615b81dcefe8b0568a85db86ce6fdc7"
   integrity sha512-1rxclU4eKnAMVYFd1swKXmryUI8Y1REODBxDwU3yfOwZzsgIEEPaW5yTw0ocQpC68Tuo1ynFUS354cPJ86sfLg==
+  dependencies:
+    "@openzeppelin/contracts" "^4.6.0"
+
+"@flarenetwork/flare-periphery-contracts@^0.1.40":
+  version "0.1.40"
+  resolved "https://registry.yarnpkg.com/@flarenetwork/flare-periphery-contracts/-/flare-periphery-contracts-0.1.40.tgz#3c91bcc003c65cd47745e840f95c1158651662de"
+  integrity sha512-qUFcF0iq3em2hw/kcrRt/yCcWZNcjgH7GX7PkZWMniFQm/5S8Aq3hsmIB/jDOq30vG1639+2evm8n4lCoqUFaQ==
   dependencies:
     "@openzeppelin/contracts" "^4.6.0"
 
@@ -2903,7 +2903,7 @@
   resolved "https://registry.yarnpkg.com/@types/mime/-/mime-1.3.5.tgz#1ef302e01cf7d2b5a0fa526790c9123bf1d06690"
   integrity sha512-/pyBZWSLD2n0dcHE3hq8s8ZvcETHtEuF+3E7XVt0Ig2nvsVQXdghHVcEkIWjy9A0wKfTn97a/PSDYohKIlnP/w==
 
-"@types/minimatch@*":
+"@types/minimatch@*", "@types/minimatch@^6.0.0":
   version "6.0.0"
   resolved "https://registry.yarnpkg.com/@types/minimatch/-/minimatch-6.0.0.tgz#4d207b1cc941367bdcd195a3a781a7e4fc3b1e03"
   integrity sha512-zmPitbQ8+6zNutpwgcQuLcsEpn/Cj54Kbn7L5pX0Os5kdWplB7xPgEh/g+SWOB/qmows2gpuCaPyduq8ZZRnxA==
